@@ -33,5 +33,10 @@ print(df.head())
 
 df.to_csv("Clened_Titanic.csv", index=False)
 
-print("\ndonee")
+print("\nCleaned Dataset")
+print(df.head())
+
+df.to_csv("Cleaned_Titanic.csv", index=False)
+
+print("\nData cleaning complete.") # 3 commit
 
