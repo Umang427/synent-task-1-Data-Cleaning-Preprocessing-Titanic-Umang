@@ -20,12 +20,12 @@ df['Survived'] = df['Survived'].astype(int)
 df['Pclass'] = df['Pclass'].astype('category')
 
 df.rename(columns={
-    'PassengerId': 'Passnger_ID',
+    'PassengerId': 'Passenger_ID', # 'E'
     'Pclass': 'Pass_Class',
-    'Sex': 'Gnder',
+    'Sex': 'Gender',             # 'E'
     'SibSp': 'Sib_Sp',
     'Parch': 'Par_Ch',
-    'Fare': 'Tickt_Fare'
+    'Fare': 'Ticket_Fare'        
 }, inplace=True)
 
 print("\nClened Dataset")
