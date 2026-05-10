@@ -7,6 +7,7 @@ print("Orignal Dataset")
 print(df.head())
 
 df['Age'] = df['Age'].fillna(df['Age'].mean())
+df['Age'] = df['Age'].round(1)
 
 df['Embarked'] = df['Embarked'].fillna(df['Embarked'].mode()[0])
 
