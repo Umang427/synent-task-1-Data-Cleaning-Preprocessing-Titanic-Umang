@@ -30,3 +30,12 @@ The `titanic.py` script executes the following preprocessing steps:
    ```bash
    git clone [https://github.com/umang427/titanic.git](https://github.com/umang427/titanic.git)
    cd titanic
+
+   ## How to Run
+
+```bash
+# Install required libraries
+pip install pandas
+
+# Run the cleaning script
+python titanic.py
