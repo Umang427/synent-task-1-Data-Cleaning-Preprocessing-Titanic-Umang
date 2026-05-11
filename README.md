@@ -42,4 +42,4 @@ python titanic.py
 
 ```
 ## Data set used 
-https://www.kaggle.com/discussions/questions-and-answers/186760](https://www.kaggle.com/code/chanchal24/titanic-dataset
+https://www.kaggle.com/code/chanchal24/titanic-dataset
