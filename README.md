@@ -39,3 +39,7 @@ pip install pandas
 
 # Run the cleaning script
 python titanic.py
+
+```
+## Data set used 
+https://www.kaggle.com/discussions/questions-and-answers/186760
